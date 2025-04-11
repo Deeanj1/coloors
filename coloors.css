@@ -145,8 +145,8 @@
 
 }
 .picture{
-    background-color: blue;
-    width: 50%
+    /* background-color: blue; */
+    width: 60%
 }
 .trophy{
     margin-left: 30%;
@@ -158,14 +158,37 @@
 }
 
 .picture{
-    display:flex;
-    justify-content: center;
-    img{
-        height:70%;
-        width: 70%;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    
+    .small{
+       img{
+        height: 30%;
+        width: 40%;
         border: 10px solid black;
-        border-radius: 18px;
-        margin-top: 30px;
+        border-radius: 20px;
+        position:absolute;
+        top: 350px;
+        z-index: 2;
+        background-color: white;
+        
+    
+       }
+        
+    }
+
+    .big{
+        img {
+            height: 50%;
+            width: 70%;
+            border: 10px solid black;
+            border-radius: 20px;
+            position: absolute;
+            left: 300px;
+            z-index: 1;
+            background-color: white;
+
+        }
     }
 }
-
