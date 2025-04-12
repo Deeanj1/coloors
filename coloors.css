@@ -192,3 +192,385 @@
         }
     }
 }
+.apps{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    gap: 20px
+}
+.ios{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+        img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        /* background-color: red; */
+    }
+    p{
+        width: 80%;
+        text-align: center;
+    }
+    .chrome{
+        font-size: 25px; width:60%; text-align: center; margin-bottom: 15px;
+    }
+
+   
+}
+.ioss{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        /* background-color: red; */
+    }
+    p{
+        width: 80%;
+        text-align: center;
+    }
+    .chrome{
+        font-size: 25px; width:60%; text-align: center; margin-bottom: 15px;
+    }
+
+    .ios::after {
+        content: "View on\Athe App\Astore.";
+        white-space: pre-line;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(100%);
+        transition: transform 0.35s ease;
+        background-color: lightgreen;
+    
+      }
+      
+      .ios:hover::after {
+        transform: translateY(0);
+        font-size: 30px;
+        font-weight: 800;
+      }
+}
+.ios2{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        /* background-color: red; */
+    }
+    p{
+        width: 80%;
+        text-align: center;
+    }
+    .chrome{
+        font-size: 25px; width:60%; text-align: center; margin-bottom: 15px;
+    }
+
+   
+}
+.ios3{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        /* background-color: red; */
+    }
+    p{
+        width: 80%;
+        text-align: center;
+    }
+    .chrome{
+        font-size: 25px; width:60%; text-align: center; margin-bottom: 15px;
+    }
+
+   
+}
+.ios4{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        /* background-color: red; */
+    }
+    p{
+        width: 80%;
+        text-align: center;
+    }
+    .chrome{
+        font-size: 25px; width:60%; text-align: center; margin-bottom: 15px;
+    }
+
+   
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    margin-top: -5%;
+    margin-bottom: 0%;
+    
+
+    img{
+        width: 60px;
+        height: 60px;
+    }
+
+    img:hover{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.tiny{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+ .lists{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(244, 242, 242);
+        width: 100%;
+        padding-left: 7%;
+        margin-top: 1%;
+        padding-top: 3% ;
+        border-bottom: 1px solid grey;
+        padding-bottom: 5%;
+       }
+
+    .boxt{
+        width: 400px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            display: block;
+            margin-bottom: 20px;
+
+        }
+        h1{
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+    }
+    .boxm{
+        width: 400px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            display: block;
+            margin-bottom: 20px;
+
+        }
+        h1{
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+    }
+    .boxj{
+        width: 400px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            display: block;
+            margin-bottom: 20px;
+
+        }
+        h1{
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+    }
+    .boxc{
+        width: 400px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            display: block;
+            margin-bottom: 20px;
+
+        }
+        h1{
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+    }
+.others{
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+}
+.t{
+    width: 60%;
+    
+    justify-content: flex-end;
+    padding-left: 5%;
+}
+.socials{
+    width: 30%;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+.ios::after {
+    content: "View on\Athe App\Astore.";
+    white-space: pre-line;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+    transition: transform 0.35s ease;
+     
+}
+  
+  .ios:hover::after {
+    transform: translateY(0);
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .ios:nth-child(1)::after {
+    background-color: rgb(142, 232, 232);
+    }
+  .ios:nth-child(2)::after {
+    background-color: rgb(186, 242, 186);
+    color: rgb(134, 239, 134);
+    content: "View on\Athe play\Astore.";
+    }
+  .ios:nth-child(3)::after {
+    background-color: rgb(248, 202, 210);
+    color: hotpink;
+    content:"Install\Anow"
+    }
+  .ios:nth-child(4)::after {
+    background-color: rgb(214, 198, 245);
+    color: rgb(155, 16, 155)
+    }
+  .ios:nth-child(5)::after {
+    background-color: rgb(246, 216, 161);
+    color: orange;
+    }
+
+  
+  .ios:hover {
+    color: rgb(107, 107, 245); 
+  }
+  .ios1:hover {
+    color: blue; 
+  }
+  .ios2:hover {
+    color: blue; 
+  }
+  .ios3:hover {
+    color: blue; 
+  }
+  .ios4:hover {
+    color: blue; 
+  }
+  a:hover{
+    color:#0067ff
+  } 
+
+  .rect{
+        width: 400px;
+        height: 150px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 10px;
+        right:10px;
+        background-color: white;
+
+        img{
+            width: 150px;
+            height: 150px;
+            
+        }
+
+
+  }
