@@ -10,6 +10,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.hamburger {
+    display: none;
+  }
 .logo{
     img{
         width: 130px;
@@ -386,6 +389,7 @@
     img:hover{
         width: 80px;
         height: 80px;
+        transition: 1s ease;
     }
 }
 
@@ -557,8 +561,8 @@
   } 
 
   .rect{
-        width: 400px;
-        height: 150px;
+        width: 300px;
+        height: 80px;
         border: 1px solid grey;
         border-radius: 10px;
         position: fixed;
@@ -567,10 +571,122 @@
         background-color: white;
 
         img{
-            width: 150px;
-            height: 150px;
+            width: 80px;
+            height: 80px;
             
         }
 
 
   }
+  @media (max-width: 768px) {
+    header {
+    justify-content: center;
+    position: relative;
+  }
+  
+  .sign {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .logo {
+    margin-left: 0;
+    max-width: 120px;
+    height: auto;
+    margin-right: 80px;
+    justify-content: center;
+    margin-left: 40%;
+    
+  } 
+  
+}
+@media (max-width: 768px) {
+    .super {
+      flex-direction: column-reverse;
+      align-items: center;
+      height: auto;
+    }
+  
+    .words {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  
+    .words h1 {
+      width: 90%;
+      font-size: 36px;
+      margin: 10px 0;
+      margin-left: 0;
+    }
+  
+    .words p {
+      width: 80%;
+      margin: 20px 0;
+      margin-left: 0;
+    }
+  
+    .btn1,
+    .btn2 {
+      margin-left: 0;
+      width: 40%;
+    }
+  
+    .picture {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .big,
+    .small {
+      position: static;
+      width: 90% !important;
+      height: auto !important;
+      z-index: auto;
+    }
+  
+    .big img,
+    .small img {
+      width: 60% !important;
+      height: auto !important;
+      position: static !important;
+      margin: 40px 100px;
+      border-width: 6px;
+    }
+    .big img{
+        display: none
+    }
+    .trophy img{
+        margin-left: -90%;
+    }
+    .apps{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .company {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        
+    }
+    .company img{
+        margin: 20px;
+    }
+    .lists a{
+        display: none
+    }
+    
+  }
+  
