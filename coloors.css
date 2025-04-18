@@ -680,7 +680,8 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         
-    }
+    }git pull --rebase origin master
+
     .company img{
         margin: 20px;
     }
